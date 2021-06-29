@@ -17,7 +17,7 @@ elif mode == "replace":
     setColor(colors.RED, keylayout.keys())
     setColor(colors.YELLOW, keys.modkeys)
 else:
-    setColor(colors.BLACK, keylayout.keys())
+    setColor(colors.GREY, keylayout.keys())
     if mode == "visual":
         setColor(colors.ORANGE, keys.functionKeys)
         setColor(colors.ORANGE, keys.visualSelection)
